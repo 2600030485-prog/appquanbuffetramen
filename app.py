@@ -293,7 +293,9 @@ Ghi chú: {ghi_chu}
 # =========================
 if "hoa_don" in st.session_state:
 
-    st.header("🧾 HÓA ĐƠN THANH TOÁN")st.text(st.session_state["hoa_don"])
+    st.header("🧾 HÓA ĐƠN THANH TOÁN")
+
+    st.text(st.session_state["hoa_don"])
 
     st.download_button(
         label="📥 Tải hóa đơn",
